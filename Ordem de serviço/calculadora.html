@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Valor Justo</title>
+  <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+  <h1>Calculadora de Valor Justo</h1>
+
+  <form id="calculator-form">
+    <div class="form-group">
+      <label for="hours">Estimativa de Horas:</label>
+      <input type="number" id="hours" required>
+    </div>
+    <div class="form-group">
+      <label for="difficulty">Fator de Dificuldade:</label>
+      <select id="difficulty">
+        <option value="1">Baixa</option>
+        <option value="2">Moderada</option>
+        <option value="3">Alta</option>
+      </select>
+    </div>
+    <button type="submit">Calcular</button>
+  </form>
+
+  <div id="result" class="hidden">
+    <h2>Valor Justo:</h2>
+    <p id="fair-value"></p>
+  </div>
+
+  <script src="calculadora.js"></script>
+</body>
+</html>

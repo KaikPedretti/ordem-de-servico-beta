@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+  }
+  
+  header {
+    background-color: goldenrod;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+  }
+  
+  .title_header {
+    margin: 0;
+    color: #333;
+  }
+
+  .title_form {
+    margin: 0;
+    color: #fff;
+    font-size: 2.5rem;
+
+  }
+  
+  main {
+    padding: 20px;
+    margin-top: 85px;
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+
+  
